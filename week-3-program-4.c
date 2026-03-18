@@ -15,4 +15,6 @@ int main()
 
     if( n3>=n1 && n3>=n2 )
         printf("%d is the largest number.", n3);
+
+    return 0;
 }
