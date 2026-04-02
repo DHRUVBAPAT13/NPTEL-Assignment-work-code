@@ -1,4 +1,10 @@
 #include<stdio.h>
+
+/* Write a C program to find the root of the equation using Newton-Raphson method.
+	f(x) = x^3 - 2x - 3
+	The maximum number of steps are taken as input. */
+
+
 float f(float x);
 float df (float x);
 
