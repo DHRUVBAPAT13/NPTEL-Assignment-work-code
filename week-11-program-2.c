@@ -33,7 +33,7 @@ int main()
         sum += func(x);
     }
 	
-	integral = (h/2)*(func(a) + func(b) + 2*sum);
+	integral = (h/2)*(func(a) + func(b) + 2.0*sum);
 	printf("The integral is: %0.6f",integral);
     return 0;
 }
