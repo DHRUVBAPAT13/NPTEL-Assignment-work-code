@@ -35,5 +35,6 @@ int main()
     {
         printf("%d\n", array[i]);
     }
+return 0;
 
 }
