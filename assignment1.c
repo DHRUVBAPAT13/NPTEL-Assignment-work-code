@@ -20,7 +20,7 @@ void displayMat(int mat[20][20], int r, int c) {
     }
 }
 
-void addMatrices(int mat1[20][20], int mat2[20][20], int r1, int c1, int r2, int c2, int res[20][20]) {
+int addMatrices(int mat1[20][20], int mat2[20][20], int r1, int c1, int r2, int c2, int res[20][20]) {
     if(r1 != r2 || c1 != c2) {
         printf("Order of matrices do not match.\n");
         return 0;
@@ -32,6 +32,7 @@ void addMatrices(int mat1[20][20], int mat2[20][20], int r1, int c1, int r2, int
             }
         }
     }
+    return 1;
 }
 int subtractMatrices(int mat1[20][20], int mat2[20][20], int r1, int c1, int r2, int c2, int res[20][20]) {
     if(r1 != r2 || c1 != c2) {
